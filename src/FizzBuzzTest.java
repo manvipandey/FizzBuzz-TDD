@@ -24,6 +24,4 @@ public class FizzBuzzTest {
         Assert.assertEquals("FizzBuzz", fizzBuzz.action(30));
 
     }
-
-
 }
