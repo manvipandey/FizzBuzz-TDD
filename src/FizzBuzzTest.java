@@ -15,6 +15,10 @@ public class FizzBuzzTest {
         Assert.assertEquals("Fizz", fizzBuzz.action(3));
         Assert.assertEquals("Fizz", fizzBuzz.action(9));
 
+        // Print "Buzz" if the number is a multiple of five
+        Assert.assertEquals("Buzz", fizzBuzz.action(10));
+        Assert.assertEquals("Buzz", fizzBuzz.action(20));
+
     }
 
 
