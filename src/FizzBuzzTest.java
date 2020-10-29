@@ -19,6 +19,10 @@ public class FizzBuzzTest {
         Assert.assertEquals("Buzz", fizzBuzz.action(10));
         Assert.assertEquals("Buzz", fizzBuzz.action(20));
 
+        // Print "FizzBuzz" if it's a multiple of 3 and 5
+        Assert.assertEquals("FizzBuzz", fizzBuzz.action(15));
+        Assert.assertEquals("FizzBuzz", fizzBuzz.action(30));
+
     }
 
 
